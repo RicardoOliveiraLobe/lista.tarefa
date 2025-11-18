@@ -1,0 +1,124 @@
+# lISTA DE TAREFAS
+
+> Implementação de um componente dinâmico para listagem e gerenciamento de atividades diárias dentro da plataforma. A interface deve permitir a rápida inserção de dados e oferecer feedback visual imediato sobre o status das tarefas.
+
+Preview(tarefas.png)
+
+## 🛠️ Tecnologias Utilizadas
+
+* HTML5
+* CSS3 
+* JavaScript
+
+## 🚀 Funcionalidades
+
+* [x] Layout Responsivo 
+* [x] Interação via JavaScript 
+* [x] Design moderno e limpo
+
+## 📂 Como rodar o projeto
+
+1.  Clone este repositório.
+2.  Abra o arquivo `index.html` no seu navegador.
+
+---
+
+## 👨‍💻 Autor
+
+Ricardo de Oliveira Lobê
+* [LinkedIn](https://www.linkedin.com/in/ricardo-lobê/)
+* [GitHub](https://github.com/RicardoOliveiraLobe)
+
+
+## 📝 Guia de Comandos Git (Anotações de Estudo)
+
+### 1. Configuração Inicial
+* `git config --global user.name 'seu nome'` - Define seu nome.
+* `git config --global user.email 'seu email'` - Define seu email.
+* `git config --global init.defaultBranch main` - Padroniza branch como main.
+
+### 2. Arquivo .gitignore
+Conteúdo padrão para ignorar arquivos de sistema e IDEs:
+
+# Arquivos de Sistema Operacional 
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs de erro 
+*.log
+
+# Configurações de Editores 
+.vscode/
+.idea/
+*.swp
+
+# Pastas de dependências 
+node_modules/
+dist/
+
+### 3. Comandos do Dia a Dia
+* `git init` - Inicia o repositório.
+* `git status` - Verifica o que mudou.
+* `git add .` - Prepara tudo para salvar.
+* `git commit -m 'Mensagem'` - Salva a versão.
+
+### 4. Enviando para o GitHub
+* `git remote add origin URL_DO_REPO` - Conecta ao GitHub (apenas 1ª vez).
+* `git push -u origin main` - Envia os arquivos (1ª vez).
+* `git push` - Envia atualizações futuras.
+
+
+CONFIGURAR O GIT (VERSÃO ANTIGA)
+
+git config --global user.name 'seu nome' 
+Define seu nome para o histórico de commits.
+
+git config --global user.email 'seu email'
+Define seu email, use o mesmo do GitHub.
+
+git config --global init.defaultBranch main
+Padroniza o nome da branch principal como main.
+
+configurar arquivo .gitignore 
+(conteúdo do arquivo abaixo)
+
+# Arquivos de Sistema Operacional 
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs de erro 
+*.log
+
+# Configurações de Editores 
+.vscode/
+.idea/
+*.swp
+
+# Pastas de dependências 
+node_modules/
+dist/
+
+(fim do conteúdo do arquivo)
+
+git init
+inicia um repositório Git na pasta atual.
+
+git status 
+verifica o status do repositório.
+
+git add .
+adiciona todos os arquivos para o próximo commit.
+
+git commit -m 'Initial' (primeiro commit)
+faz o commit dos arquivos adicionados com a mensagem descrita.
+
+git remote add origin https://github.com/SEU_USUARIO/NOME_DO_REPO.git
+adiciona o repositório remoto, faça apenas na primeira vez.
+
+git push -u origin main
+ligando o repositório local ao remoto e enviando os arquivos, faça ane na primeira vez.
+
+git push
+enviando os arquivos para o repositório remoto nas próximas vezes.

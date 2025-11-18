@@ -1,0 +1,16 @@
+# Arquivos de Sistema Operacional 
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs de erro 
+*.log
+
+# Configurações de Editores 
+.vscode/
+.idea/
+*.swp
+
+# Pastas de dependências 
+node_modules/
+dist/

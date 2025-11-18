@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #FFFFFF;
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: #fff;
+    width: 100%;
+    max-width: 540px;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border: 1px solid #f0f0f0;
+}
+
+.todo-app h2 {
+    color: #000000;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.todo-app h2 i {
+    margin-left: 10px;
+    color: #8bff00;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f4f4f4;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    border: 1px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.row:focus-within {
+    border-color: #8bff00;
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-size: 16px;
+    color: #000;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #8bff00;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 40px;
+    transition: background 0.3s, transform 0.1s;
+}
+
+button:hover {
+    background: #76d600;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+ul li {
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    transition: 0.2s;
+    color: #000000;
+}
+
+ul li::before {
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    border: 2px solid #8bff00;
+    background: transparent;
+    top: 8px;
+    left: 8px;
+    transition: all 0.2s;
+}
+
+ul li.checked {
+    color: #888;
+    text-decoration: line-through;
+}
+
+ul li.checked::before {
+    background-color: #8bff00;
+    border-color: #8bff00;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23000000'%3E%3Cpath d='M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z'/%3E%3C/svg%3E");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+ul li span {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+ul li span:hover {
+    background: #f0f0f0;
+    color: #8bff00;
+}
